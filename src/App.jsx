@@ -12,13 +12,10 @@ import CardDeal from "./components/CardDeal";
 import Testimonials from "./components/Testimonials";
 
 
-
-
-
 const App = () => {
   return (
     <div>
-       <div className="bg-primary w-full overflow-hidden">
+       <div className="bg-secondary w-full overflow-hidden">
        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
        <div className={`${styles.boxWidth}`}>
         <Navbar />
