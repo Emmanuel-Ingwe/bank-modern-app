@@ -2,9 +2,7 @@ import React from 'react';
 
 const Business = () => {
     return (
-        <div>
-
-        </div>
+        <div>Bus</div>
     );
 };
 

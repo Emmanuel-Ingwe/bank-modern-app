@@ -2,9 +2,7 @@ import React from 'react'
 
 const CTA = () => {
   return (
-    <div>
-      
-    </div>
+    <div>CTA</div>
   )
 }
 
