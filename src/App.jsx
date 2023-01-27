@@ -1,16 +1,26 @@
-import React from 'react'
 import styles from "./style";
 
 import Billing from "./components/Billing";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Stats from "./components/Stats";
+import Business from "./components/Business";
+import Clients from "./components/Clients";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+import CardDeal from "./components/CardDeal";
+import Testimonials from "./components/Testimonials";
+
+
+
 
 
 const App = () => {
   return (
     <div>
        <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
@@ -38,4 +48,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
